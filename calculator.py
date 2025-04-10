@@ -1,3 +1,7 @@
+# https://github.com/SuyeshThapa/lab10-ST-STC.git
+# Partner 1: Suyesh Thapa
+# Partner 2: Suyesh Thapa Clone
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
@@ -7,6 +11,15 @@ One function per operation, in order.
 
 # First example
 import math
+
+def square_root(a):
+    if a < 0:
+        raise ValueError
+
+    return math.sqrt(a)
+
+def hypotenuse(a, b):
+    return math.hypot(a, b)
 
 def add(a, b):
     return a + b
@@ -31,5 +44,3 @@ def logarithm(a, b):
 
 def exp(a, b):
     return a ** b
-
-
